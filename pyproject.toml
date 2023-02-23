@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "yt-privacy"
+version = "0.1.0"
+description = ""
+authors = ["kuj1 <the.same.dentist@gmail.com>"]
+readme = "README.md"
+packages = [{include = "yt_privacy"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+google-auth-oauthlib = "^1.0.0"
+google-api-python-client = "^2.79.0"
+google-auth-httplib2 = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
