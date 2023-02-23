@@ -99,3 +99,4 @@ def set_privacy(info):
 if __name__ == '__main__':
     get_user_info()
     set_privacy(info=compile_videos_info())
+    os.remove(os.path.join(DATA_FOLDER, 'user_token.json'))
