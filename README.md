@@ -18,7 +18,7 @@
 ```
 - Если предыдущие шаги выполнены успешно, то скачайте / клонируйте репозиторий перейдите в корень и выполните:
 ```bash
-   git clone https://github.com/Kuj1/yt_privacy.git  // this command clone this repo in your working directory
+   git clone https://github.com/Kuj1/yt_privacy.git   #this command clone this repo in your working directory
    poetry install
 ```
 - Теперь вы готовы к запуску скрипта!
